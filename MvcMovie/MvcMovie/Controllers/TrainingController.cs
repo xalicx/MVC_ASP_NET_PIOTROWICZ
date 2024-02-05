@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace MvcMovie.Controllers
 {
@@ -7,6 +9,8 @@ namespace MvcMovie.Controllers
         public IActionResult Index()
         {
             return View();
+
         }
+
     }
 }
